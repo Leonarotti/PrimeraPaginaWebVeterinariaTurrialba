@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria Turrialba</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/registro.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
             <ul>
                 <li> <a href="index.html">Inicio</a></li>
                 <li> <a href="inicioSesion.html">Inicio de Sesión</a></li>
-                <li><a href="animacion.html">Animación</a></li>
+                <li><a href="animacion.html">Animaión</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +26,7 @@
             <div class="formulario">
                 <h2>Iniciar Sesión</h2>
 
-                <form id="formulario" method="post" action="">
+                <form id="formularioRegistro" method="post" action="">
 
                     <div class="usuarios">
                         <label>Número de cédula</label>
@@ -66,8 +67,8 @@
                     </div>
 
                     <div class="usuarios">
-                        <label>Confirmar Contraseña:</label>
-                        <input id="contrasenna" type="password" required>
+                        <label id="contra">Confirmar Contraseña:</label>
+                        <input id="contrasennaConfirmacion" type="password" required>
                     </div>
 
                     <input id="botonIngresar" type="submit" value="Registrar">
